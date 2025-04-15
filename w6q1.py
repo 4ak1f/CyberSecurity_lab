@@ -2,7 +2,7 @@ def xor_encrypt_decrypt(plaintext, key):
     result = ''.join(chr(ord(char) ^ key) for char in plaintext)
     return result
 
-plaintext = 'Cyber Security'
+plaintext = input("Enter a text to cipher it by XOR'ing the characters-")
 
 keys = [0, 1, 5]
 

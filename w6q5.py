@@ -10,7 +10,6 @@ def feistel_cipher(block, key, rounds):
         left, right = feistel_round(left, right, key)
     return left, right
 
-# Example usage
 block = (0b110011, 0b101010)  # 64-bit block divided into two 32-bit halves
 key = 0b11110000111100001111000011110000  # 32-bit key
 rounds = 4

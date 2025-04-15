@@ -77,7 +77,7 @@ if __name__ == "__main__":
     key = "MONARCHY"
     playfair = PlayfairCipher(key)
     
-    plaintext = "HELLO"
+    plaintext = input("Enter text you want to cipher- ")
     print(f"Original Text: {plaintext}")
     
     encrypted_text = playfair.encrypt(plaintext)
